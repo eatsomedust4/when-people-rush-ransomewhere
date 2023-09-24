@@ -31,7 +31,7 @@ echo gift card codes to notrealemail54325432543543254325432543543254325431@gmail
 echo and defently do not type in the code 1213-4562-12 before you pay. . . .
 SET INPUT=
 SET /P INPUT=enter key 1213-4562-12:
-	IF /I '%INPUT%'=='1213-4562-12'goto pay
+	IF /I '%INPUT%'=='1213-4562-12' goto pay
 echo WRONG
 pause > nul
 goto menu
